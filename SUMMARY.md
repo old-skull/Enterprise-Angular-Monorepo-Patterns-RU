@@ -11,3 +11,4 @@
 * [Почему Nx?](chast-1/pochemu-nx.md)
 * [Основы Nx](chast-1/osnovy-nx.md)
 * [Взаимодействие с Nx](chast-1/vzaimodeistvie-s-nx.md)
+* [Установка и настройка рабочего пространства](chast-1/ustanovka-i-nastroika-rabochego-prostranstva.md)
