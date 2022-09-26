@@ -5,10 +5,16 @@
 * [Вступление](vstuplenie.md)
 * [Пример приложения](primer-prilozheniya.md)
 
-## Часть 1
+## Часть 1: Начало работы
 
-* [Часть 1: Начало работы](chast-1/chast-1-nachalo-raboty.md)
-* [Почему Nx?](chast-1/pochemu-nx.md)
-* [Основы Nx](chast-1/osnovy-nx.md)
-* [Взаимодействие с Nx](chast-1/vzaimodeistvie-s-nx.md)
-* [Установка и настройка рабочего пространства](chast-1/ustanovka-i-nastroika-rabochego-prostranstva.md)
+* [Почему монорепозиторий?](chast-1-nachalo-raboty/pochemu-monorepozitorii.md)
+* [Почему Nx?](chast-1-nachalo-raboty/pochemu-nx.md)
+* [Основы Nx](chast-1-nachalo-raboty/osnovy-nx.md)
+* [Взаимодействие с Nx](chast-1-nachalo-raboty/vzaimodeistvie-s-nx.md)
+* [Установка и настройка рабочего пространства](chast-1-nachalo-raboty/ustanovka-i-nastroika-rabochego-prostranstva.md)
+* [Получение помощи](chast-1-nachalo-raboty/poluchenie-pomoshi.md)
+* [Подведем итоги](chast-1-nachalo-raboty/podvedem-itogi.md)
+
+## Часть 2: Организация кода с помощью библиотек
+
+* [В двух словах](chast-2-organizaciya-koda-s-pomoshyu-bibliotek/v-dvukh-slovakh.md)
