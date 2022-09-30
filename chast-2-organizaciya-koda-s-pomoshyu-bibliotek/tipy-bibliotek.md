@@ -96,7 +96,7 @@ import { FlightSearchComponent } from './components/flight-search/flight-search.
 @NgModule({
   imports: [
     CommonModule,
-    RouterModule.forChild([ (1)
+    RouterModule.forChild([ // (1)
       {
         path: '',
         component: FlightSearchComponent,
@@ -116,7 +116,7 @@ import { FlightSearchComponent } from './components/flight-search/flight-search.
   ],
  declarations: [FlightSearchComponent]
 })
-export class BookingFeatureShellModule {} (2)
+export class BookingFeatureShellModule {} // (2)
 ```
 {% endcode %}
 
