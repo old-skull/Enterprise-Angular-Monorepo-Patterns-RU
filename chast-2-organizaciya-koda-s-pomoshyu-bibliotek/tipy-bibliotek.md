@@ -114,7 +114,7 @@ import { FlightSearchComponent } from './components/flight-search/flight-search.
       }
     ])
   ],
- declarations: [FlightSearchComponent]
+  declarations: [FlightSearchComponent]
 })
 export class BookingFeatureShellModule {} // (2)
 ```
