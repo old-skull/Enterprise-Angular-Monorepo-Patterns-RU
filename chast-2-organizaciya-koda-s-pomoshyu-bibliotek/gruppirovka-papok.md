@@ -11,16 +11,16 @@ apps/
   booking/
   check-in/
 libs/
-  booking/           <---- группирующая папка 
-    feature-shell/   <---- библиотека 
+  booking/             <---- группирующая папка 
+    feature-shell/     <---- библиотека 
     
   check-in/
     feature-shell/
     
-  shared/            <---- группирующая папка 
-    data-access/     <---- библиотека 
+  shared/              <---- группирующая папка 
+    data-access/       <---- библиотека 
     
-  seatmap/           <---- группирующая папка
-    data-access/     <---- библиотека
-    feature-seatmap/ <---- библиотека
+    seatmap/           <---- группирующая папка
+      data-access/     <---- библиотека
+      feature-seatmap/ <---- библиотека
 ```
