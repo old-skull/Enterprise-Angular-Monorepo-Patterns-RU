@@ -19,3 +19,4 @@
 
 * [Вкратце](chast-2-organizaciya-koda-s-pomoshyu-bibliotek/vkratce.md)
 * [Типы библиотек](chast-2-organizaciya-koda-s-pomoshyu-bibliotek/tipy-bibliotek.md)
+* [Группировка папок](chast-2-organizaciya-koda-s-pomoshyu-bibliotek/gruppirovka-papok.md)
