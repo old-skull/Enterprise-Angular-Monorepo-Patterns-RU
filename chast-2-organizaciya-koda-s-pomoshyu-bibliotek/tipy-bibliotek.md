@@ -126,3 +126,99 @@ export class BookingFeatureShellModule {} // (2)
 См. раздел "Параметры командной строки" для обсуждения опций командной строки, доступных для генерации лениво загружаемого шаблона для библиотек функций.&#x20;
 
 Теперь, когда мы рассмотрели, где размещать умные компоненты, давайте рассмотрим где размещать презентационные компоненты.
+
+### UI библиотеки
+
+#### Что это такое?
+
+UI библиотека - это набор связанных презентационных компонентов. Обычно в эти компоненты не внедряются никакие сервисы (все необходимые им данные должны поступать через _Inputs_).
+
+Обсуждение того, следует ли делать UI библиотеку специфичной для приложения и shared, см. в Приложении C ("Где я должен создать свою новую библиотеку?").
+
+#### Соглашение об именовании
+
+<mark style="color:red;">`ui`</mark> (при вложенности) или <mark style="color:red;">`ui-*`</mark> (например, <mark style="color:red;">`ui-buttons`</mark>)
+
+#### Пример модуля UI библиотеки
+
+```typescript
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { ConfirmButtonComponent } from './confirm-button/confirm-
+button.component';
+
+@NgModule({
+  imports: [CommonModule],
+  declarations: [ConfirmButtonComponent],
+  exports: [ConfirmButtonComponent]
+})
+export class CommonUiButtonsModule {} // (1)
+```
+
+1. Путь к этому модулю будет выглядеть как <mark style="color:red;">`libs/common/ui-buttons/src/common-ui-buttons.module.ts`</mark>
+
+Помимо умных и презентационных компонентов, существуют также библиотеки для доступа к данным или библиотеки для утилит. Давайте рассмотрим, что они содержат.
+
+### Data-access Libraries
+
+#### Что это такое?
+
+Data-access библиотеки содержат REST или webSocket сервисы, которые функционируют как клиентские слои передачи данных для API.
+
+Все файлы, связанные с управлением состоянием, также находятся в папке data-access (по соглашению они могут быть сгруппированы в папке <mark style="color:red;">`+state`</mark> в <mark style="color:red;">`src/lib`</mark>).
+
+#### Соглашение об именовании
+
+<mark style="color:red;">`data-access`</mark> (при вложенности) или <mark style="color:red;">`data-access-*`</mark> (например, <mark style="color:red;">`data-access-seatmap`</mark>)
+
+#### Пример data-access модуля
+
+```typescript
+import { NgModule } from '@angular/core';
+import { CommonModule } from '@angular/common';
+import { StoreModule } from '@ngrx/store';
+import { EffectsModule } from '@ngrx/effects';
+import { customersReducer } from './+state/state.reducer';
+import { customersInitialState } from './+state/state.init';
+import { CustomersEffects } from './+state/state.effects';
+
+@NgModule({
+  imports: [
+    CommonModule,
+    StoreModule.forFeature('customer', customersReducer, { // (1)
+      initialState: customersInitialState
+    }),
+    EffectsModule.forFeature([CustomersEffects]) // (1) 
+  ],
+  providers: [CustomersEffects]
+})
+export class CustomersDataAccessModule {}
+```
+
+1. Опять же, обратите внимание, что мы используем .forFeature только в библиотеках. Любые вызовы .forRoot должны быть в приложениях.
+
+**Data-access библиотеки легко переиспользовать**, поэтому сосредоточьтесь на создании большего количества shared data-access библиотек.
+
+{% hint style="warning" %}
+Если библиотека является shared, задокументируйте ее! Подробнее см. раздел Документирование библиотек
+{% endhint %}
+
+### Utility библиотеки
+
+#### Что это такое?
+
+Утилита содержит общие утилиты/сервисы, используемые многими библиотеками. Часто ngModule отсутствует, а библиотека представляет собой просто набор утилит или чистых функций.
+
+#### Конвенция об именовании
+
+util (если вложенный), или util-\* (например, util-testing)
+
+#### &#x20;Пример модуля utility библиотеки
+
+```typescript
+// libs/shared/util-formatting
+export { formatDate, formatTime } from './src/format-date-fns';
+export { formatCurrency } from './src/format-currency';
+```
+
+Теперь, когда мы рассмотрели различные типы библиотек, мы можем рассмотреть две важные концепции: группировка библиотек во вложенной иерархии и поддержание повторного использования кода с помощью shared библиотек.
