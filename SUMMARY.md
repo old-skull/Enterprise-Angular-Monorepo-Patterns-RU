@@ -26,3 +26,10 @@
 * [Имена модулей](chast-2-organizaciya-koda-s-pomoshyu-bibliotek/imena-modulei.md)
 * [Параметры командной строки](chast-2-organizaciya-koda-s-pomoshyu-bibliotek/parametry-komandnoi-stroki.md)
 * [Подведем итоги](chast-2-organizaciya-koda-s-pomoshyu-bibliotek/podvedem-itogi.md)
+
+## Часть 3: Обеспечение качества и консистентности
+
+* [Обеспечение качества и консистентности](chast-3-obespechenie-kachestva-i-konsistentnosti/obespechenie-kachestva-i-konsistentnosti.md)
+* [Применение политики единой версии](chast-3-obespechenie-kachestva-i-konsistentnosti/primenenie-politiki-edinoi-versii.md)
+* [Обеспечение консистентности в форматировании кода](chast-3-obespechenie-kachestva-i-konsistentnosti/obespechenie-konsistentnosti-v-formatirovanii-koda.md)
+* [Untitled](chast-3-obespechenie-kachestva-i-konsistentnosti/untitled.md)
