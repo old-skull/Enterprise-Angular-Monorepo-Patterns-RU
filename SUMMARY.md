@@ -33,3 +33,4 @@
 * [Применение политики единой версии](chast-3-obespechenie-kachestva-i-konsistentnosti/primenenie-politiki-edinoi-versii.md)
 * [Обеспечение консистентности в форматировании кода](chast-3-obespechenie-kachestva-i-konsistentnosti/obespechenie-konsistentnosti-v-formatirovanii-koda.md)
 * [Обеспечение ограничений в зависимостях библиотек](chast-3-obespechenie-kachestva-i-konsistentnosti/obespechenie-ogranichenii-v-zavisimostyakh-bibliotek.md)
+* [Использование схем рабочего пространства](chast-3-obespechenie-kachestva-i-konsistentnosti/ispolzovanie-skhem-rabochego-prostranstva.md)
