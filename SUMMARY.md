@@ -34,3 +34,5 @@
 * [Обеспечение консистентности в форматировании кода](chast-3-obespechenie-kachestva-i-konsistentnosti/obespechenie-konsistentnosti-v-formatirovanii-koda.md)
 * [Обеспечение ограничений в зависимостях библиотек](chast-3-obespechenie-kachestva-i-konsistentnosti/obespechenie-ogranichenii-v-zavisimostyakh-bibliotek.md)
 * [Использование схем рабочего пространства](chast-3-obespechenie-kachestva-i-konsistentnosti/ispolzovanie-skhem-rabochego-prostranstva.md)
+* [Обработка бэкенд запросов с помощью DataPersistence](chast-3-obespechenie-kachestva-i-konsistentnosti/obrabotka-bekend-zaprosov-s-pomoshyu-datapersistence.md)
+* [Подведем итоги](chast-3-obespechenie-kachestva-i-konsistentnosti/podvedem-itogi.md)
