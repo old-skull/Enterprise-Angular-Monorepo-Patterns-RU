@@ -36,3 +36,8 @@
 * [Использование схем рабочего пространства](chast-3-obespechenie-kachestva-i-konsistentnosti/ispolzovanie-skhem-rabochego-prostranstva.md)
 * [Обработка бэкенд запросов с помощью DataPersistence](chast-3-obespechenie-kachestva-i-konsistentnosti/obrabotka-bekend-zaprosov-s-pomoshyu-datapersistence.md)
 * [Подведем итоги](chast-3-obespechenie-kachestva-i-konsistentnosti/podvedem-itogi.md)
+
+## Часть 4: Помощь в сборках и CI
+
+* [Пересборка и повторное тестирование только затронутых приложений и библиотек](chast-4-pomosh-v-sborkakh-i-ci/peresborka-i-povtornoe-testirovanie-tolko-zatronutykh-prilozhenii-i-bibliotek.md)
+* [Подведем итоги](chast-4-pomosh-v-sborkakh-i-ci/podvedem-itogi.md)
