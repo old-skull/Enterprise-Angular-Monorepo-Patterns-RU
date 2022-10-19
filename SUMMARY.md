@@ -41,3 +41,8 @@
 
 * [Пересборка и повторное тестирование только затронутых приложений и библиотек](chast-4-pomosh-v-sborkakh-i-ci/peresborka-i-povtornoe-testirovanie-tolko-zatronutykh-prilozhenii-i-bibliotek.md)
 * [Подведем итоги](chast-4-pomosh-v-sborkakh-i-ci/podvedem-itogi.md)
+
+## Часть 5: Проблемы разработки в монорепозитории
+
+* [Вступление](chast-5-problemy-razrabotki-v-monorepozitorii/vstuplenie.md)
+* [Как работать с изменениями кода в разных командах](chast-5-problemy-razrabotki-v-monorepozitorii/kak-rabotat-s-izmeneniyami-koda-v-raznykh-komandakh.md)
