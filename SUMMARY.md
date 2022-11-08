@@ -46,3 +46,6 @@
 
 * [Вступление](chast-5-problemy-razrabotki-v-monorepozitorii/vstuplenie.md)
 * [Как работать с изменениями кода в разных командах](chast-5-problemy-razrabotki-v-monorepozitorii/kak-rabotat-s-izmeneniyami-koda-v-raznykh-komandakh.md)
+* [Trunk-based разработка](chast-5-problemy-razrabotki-v-monorepozitorii/trunk-based-razrabotka.md)
+* [Рекомендуемая стратегия Git](chast-5-problemy-razrabotki-v-monorepozitorii/rekomenduemaya-strategiya-git.md)
+* [Подведем итоги](chast-5-problemy-razrabotki-v-monorepozitorii/podvedem-itogi.md)
