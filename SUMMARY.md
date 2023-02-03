@@ -49,3 +49,8 @@
 * [Trunk-based разработка](chast-5-problemy-razrabotki-v-monorepozitorii/trunk-based-razrabotka.md)
 * [Рекомендуемая стратегия Git](chast-5-problemy-razrabotki-v-monorepozitorii/rekomenduemaya-strategiya-git.md)
 * [Подведем итоги](chast-5-problemy-razrabotki-v-monorepozitorii/podvedem-itogi.md)
+
+## Приложение А: другие среды
+
+* [Приложение A: Другие среды](prilozhenie-a-drugie-sredy/prilozhenie-a-drugie-sredy.md)
+* [Фичи](prilozhenie-a-drugie-sredy/fichi.md)
